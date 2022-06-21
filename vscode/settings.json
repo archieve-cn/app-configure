@@ -1,0 +1,61 @@
+{
+    "workbench.iconTheme": "vscode-icons",
+    "workbench.colorTheme": "MulticolorPigeon",
+    "tabnine.experimentalAutoImports": true,
+    "explorer.confirmDelete": false,
+    "terminal.integrated.fontSize": 15,
+    "editor.suggestFontSize": 18,
+    "cmake.skipConfigureIfCachePresent": true,
+    "cmake.revealLog": "focus",
+    "editor.detectIndentation": false,
+
+    "editor.renderControlCharacters": true,
+    "editor.renderWhitespace": "all",
+    "editor.tabCompletion": "on",
+    "editor.lineNumbers": "relative",
+
+    "editor.fontFamily": "Sarasa Mono SC Nerd",
+    "editor.fontSize": 18,
+    "editor.codeLensFontFamily": "Sarasa Mono SC Nerd",
+    "debug.console.fontFamily": "Sarasa Mono SC Nerd",
+    "debug.console.fontSize": 15,
+    "scm.inputFontFamily": "Sarasa Mono SC Nerd",
+    "scm.inputFontSize": 15,
+    
+    // QStyles
+    "vim.cursorStylePerMode.insert": "line",
+    "vim.cursorStylePerMode.normal": "block",
+    "vim.cursorStylePerMode.replace": "underline",
+    
+    // QFeatures
+    "vim.easymotion": true,
+    "vim.smartRelativeLine": true,
+    "vim.useSystemClipboard": true,
+    "vim.hlsearch": true,
+
+    "vim.handleKeys": {
+        "<C-s>": false,
+        "<C-c>": false,
+        "<C-x>": false,
+        "<C-v>": false,
+        "<C-f>": false,
+        "<C-h>": false,
+        "<C-z>": false,
+        "<C-y>": false,
+    },
+
+    "vim.normalModeKeyBindingsNonRecursive": [
+        {
+            "before": [
+                "<leader>",
+                "g",
+                "c"
+            ],
+            "commands": [
+                "workbench.action.showCommands"
+            ]
+        }
+    ],
+
+    "vim.commandLineModeKeyBindingsNonRecursive": [],
+}
